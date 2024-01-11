@@ -14,4 +14,8 @@ const personThreeR = (req, res) => {
   res.send(" Claudia Mendoza");
 };
 
-module.exports = { personOneR, personTwoR, personThreeR, myName };
+module.exports = { 
+  "personOneR": personOneR,
+   "personTwoR":personTwoR,
+   "personThreeR":personThreeR,
+   "myName":myName };
