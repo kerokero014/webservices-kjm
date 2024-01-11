@@ -1,3 +1,7 @@
+const myName = (req, res) => {
+  res.send("My name is Kevin Mendoza");
+};
+
 const personOneR = (req, res) => {
   res.send(" Ana Karina");
 };
@@ -10,4 +14,4 @@ const personThreeR = (req, res) => {
   res.send(" Claudia Mendoza");
 };
 
-module.exports = { personOneR, personTwoR, personThreeR };
+module.exports = { personOneR, personTwoR, personThreeR, myName };
